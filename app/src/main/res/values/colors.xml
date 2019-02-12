@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="orange">#FEB11B</color>
+    <color name="dark">#000000</color>
+    <color name="aoni">#516E41</color>
+    <color name="wakatake">#5DAC81</color>
+    <color name="myRed">#FE5C5F</color>
+</resources>

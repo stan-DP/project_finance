@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear_layout_keyboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white">
+        <TextView
+            android:id="@+id/keyboard_hint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="备注:"/>
+        <EditText
+            android:id="@+id/keybord_tip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:hint=" "
+            android:background="@null"/>
+        <View
+            android:id="@+id/keyboard_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/keybord_result"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="0.0"
+            android:textColor="@color/dark"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <com.example.administrator.project_finance.NumberKeybordView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@drawable/keybord_backspace"
+        android:keyTextColor="@color/dark"
+        android:shadowColor="#00000000"
+        android:shadowRadius="0"/>
+
+</LinearLayout>

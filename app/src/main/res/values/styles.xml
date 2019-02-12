@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<span style="white-space:pre"></span>-->
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="SlidrTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<span style="white-space:pre"></span>-->
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <declare-styleable name="NumberKeybordView">
+        <attr name="pkvDeleteDrawable" format="reference"/>
+        <attr name="pkvDeleteBackgroundColor" format="color|reference"/>
+    </declare-styleable>
+
+</resources>
